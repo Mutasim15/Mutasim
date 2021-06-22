@@ -1,0 +1,125 @@
+*{
+
+    margin: 0;
+    padding: 0;
+}
+
+body{
+
+    background-color: #EEE;
+    font-family: 'Odibee Sans', cursive;
+}
+
+
+.container{
+    max-width: 1000px;
+    background: #E4F9F5;
+    margin: 0 auto;
+    padding: 20x;
+}
+header{
+
+}
+.profile-image{
+   width: 105px;
+    height:120px;
+    border:3px solid white;
+    border-radius: 50%;
+    float: left;
+    
+}
+.header-bio{
+    float: left;
+    padding: 30px;
+}
+h1,h2,h3,h4,h5,h6{
+    color: #11999e;
+    
+}
+h4{
+ 
+}
+.header-contact{
+    float:right;
+    padding: 30px;
+}
+.header-contact a{
+text-decoration: none;
+color: teal;
+font-weight: bold;
+}
+.header-contact a:hover{
+    color:red;
+    text-decoration:underline;
+    color: tomato;
+}
+.div-clear{
+    clear:both;
+}
+
+hr{
+    border: 2px solid black;
+    margin:20px auto;
+    width: 99%;
+    border-bottom: none;
+    
+}
+
+/*-------------personal section--------------*/
+
+
+.personal-section{
+
+
+}
+
+.content{
+margin-bottom: 50px;
+}
+.left-div{
+width: 30%;
+float:left;
+
+}
+
+.right-div{
+
+    width: 70%;
+    float:left;
+    margin: 0 auto;
+}
+
+.common-hr{
+    border: solid black 1px;
+    border-bottom: none;
+    width: 99%;
+    margin:20px auto;
+}
+
+/*------------e\education section start--------------*/
+
+.edu-template-left{
+    float: left;
+    width: 45%;
+    text-decoration: none;
+    
+
+}
+.edu-template-right{
+     float: right;
+    width: 45%;
+}
+
+/*-------bottom-container--------*/
+
+.bottom-container{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+.bottom-container a{  
+    background-color: black;
+    color: white;
+    text-decoration: none;
+} 
